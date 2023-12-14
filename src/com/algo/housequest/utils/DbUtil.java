@@ -176,6 +176,10 @@ public List<Graph> getGraph() throws Exception {
 
 }
 
+public List<House> getHouse(int destId) {
+	return null;
+}
+
 }
 
 	

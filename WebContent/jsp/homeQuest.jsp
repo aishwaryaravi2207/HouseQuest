@@ -1,40 +1,147 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page import="java.time.*"%> <%@ page language="java" contentType="text/html;
-charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.time.*"%>
+<%@ page language="java" contentType="text/html;
+charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HomeQuest | Homepage</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="js/home.js"></script>
-        <link rel="stylesheet" href="css/global.css" />
-        <link rel="stylesheet" href="css/home.css" />
-        <link rel="icon" href="images/quet_logo.jpg" type="image/x-icon" />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-        />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Tangerine"
-        />
-        <script>
-            var contextPath = "${pageContext.request.contextPath}"; 
-        </script>
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="nav-container">
-                <div class="logo">
-                    <img class="logo-image" src="images/jingle_logo.jpeg" />
-                    <h1
-                        class="logo-text"
-                        style="font-family: Tangerine; color: #ab8742"
-                    >
-                        quest
-                    </h1>
-                </div>
-                <div class="menu">
+<head>
+<title>HomeQuest | Homepage</title>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/home.js"></script>
+<link rel="stylesheet" href="css/global.css" />
+<link rel="stylesheet" href="css/home.css" />
+<link rel="icon" href="images/quest_logo.jpeg" type="image/x-icon" />
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css?family=Tangerine" />
+<script>
+	var contextPath = "${pageContext.request.contextPath}";
+</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="nav-container"
+			style="background-image: url('images/quest_cover.jpg'); background-size: cover; background-repeat: no-repeat;">
+			<div class="logo">
+				<img class="logo-image" src="images/quest_logo.jpg" />
+				<h1 class="logo-text" style="font-family: Tangerine; color: white">
+					quest</h1>
+			</div>
+			<div class="search-section">
+				<div class="input-box">
+					<select id="dropdown" name="combo" required>
+						<option class="options" value="" disabled selected>Select
+							your destination</option>
+						<option class="options" value="27">Roux Institute</option>
+						<option class="options" value="28">University of Southern
+							Maine</option>
+					</select>
+				</div>
+				<div class="search-button">
+					<div class="search-btn">Search</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="grid">
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+				<div class="house-grid">
+					<img class="house-picture" src="images/h1_dp.jpg" />
+					<br/>
+					<div class="house-info">
+					<div class="house-address">Address : 87 Lincoln Street</div>
+					<div class="house-distance">Distance : 3 miles</div>
+					<div class="house-bedrooms">Bedroom(s): 2</div>
+					<div class="house-bath">Bath(s) : 2</div>
+					</div>						
+				</div>
+			</div>
+		</div>
+		<%-- <div class="menu">
                     <div class="section">
                         <div class="heading">Discover</div>
                         <div class="item-container">
@@ -278,6 +385,6 @@ charset=UTF-8" pageEncoding="UTF-8"%>
                     </div>
                 </div>
             </div>
-        </div>
-    </body>
+        </div> --%>
+</body>
 </html>
