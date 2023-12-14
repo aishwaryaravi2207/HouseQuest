@@ -1,0 +1,123 @@
+.wrapper {
+	width: auto;
+	height: 100vh;
+	display: block;
+	background-color: white;
+}
+
+.wrapper .nav-container {
+	width: auto;
+	height: 500px;
+	padding: 1px;
+}
+
+.wrapper .nav-container .logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.wrapper .nav-container .logo .logo-image {
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+	border-radius: 10px;
+
+}
+
+.wrapper .nav-container .logo .logo-text {
+	font-size: 45px;
+}
+
+.wrapper .search-section {
+	display: flex;
+	justify-content: center;
+	padding: 140px;
+}
+
+.wrapper #dropdown {
+	height: 50px;
+	width: 700px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.wrapper .options {
+	font-weight: bold;
+}
+
+.wrapper .search-button {
+	height: 50px;
+	width: 200px;
+	background-color: dodgerblue;
+	justify-content: center;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+.wrapper .search-btn {
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.wrapper {
+
+	.content {
+		display: flex;
+		width: auto;
+		height: 100vh;
+		padding: 10px;
+		justify-content: center;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		padding: 20px;
+		height: 500px;
+		width: auto;
+	}
+
+	.house-grid {
+		padding: 2px;
+		border: 2px solid #000;
+		border-radius: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+
+		.house-tile {
+			padding: 20px;
+
+			.house-picture {
+				width: 100%;
+				height: 400px;
+				padding: 15px;
+			}
+
+			.house-info {
+				padding: 20px;
+
+				.house-price {
+					font-size: 30px;
+					font-weight: 700;
+					margin-bottom: 5px;
+				}
+
+				.house-bbd {
+					font-weight: 600;
+					color: darkgray;
+					margin-bottom: 2px;
+				}
+				
+				.house-address{
+					margin-bottom: 2px;
+				}
+				
+			}
+		}
+	}
+}

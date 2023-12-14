@@ -12,6 +12,11 @@ public class Graph {
 		this.destination = destination;
 		this.distance = distance;
 	}
+	
+	public Graph(int source,int destination) {
+		this.source = source;
+		this.destination = destination;
+	}
 
 	public int getSource() {
 		return source;

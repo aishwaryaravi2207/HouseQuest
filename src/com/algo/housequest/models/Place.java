@@ -5,14 +5,35 @@ public class Place {
 	int id;
 	String type;
 	String address;
-	String placeDp;
 	
-	public Place(int id, String type, String address, String placeDp) {
-		super();
+	int distance;
+	
+	public Place(int id, String type, String address) {
 		this.id = id;
 		this.type = type;
 		this.address = address;
-		this.placeDp = placeDp;
+	}
+	
+	public Place(int id, int distance) {
+		this.id = id;
+		this.distance = distance;
+		
+	}
+	
+	public Place(int id, String type, String address,int distance) {
+		this.id = id;
+		this.type = type;
+		this.address = address;
+		this.distance = distance;
+	}
+	
+
+	public int getDistance() {
+		return distance;
+	}
+
+	public void setDistance(int distance) {
+		this.distance = distance;
 	}
 
 	public int getId() {
@@ -22,13 +43,9 @@ public class Place {
 	public String getType() {
 		return type;
 	}
-
+	
 	public String getAddress() {
 		return address;
-	}
-
-	public String getPlaceDp() {
-		return placeDp;
 	}
 
 	public void setId(int id) {
@@ -43,8 +60,5 @@ public class Place {
 		this.address = address;
 	}
 
-	public void setPlaceDp(String placeDp) {
-		this.placeDp = placeDp;
-	}
 
 }
