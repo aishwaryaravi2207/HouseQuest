@@ -93,10 +93,10 @@
 	background: dodgerblue;
 	color: white;
 	padding: 10px;
+	font-weight: bold;
 }
 
-
-.wrapper .grid {
+ .wrapper .grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	padding: 20px;
@@ -111,9 +111,9 @@
 	margin-right: 20px;
 	margin-bottom: 25px;
 	background: linear-gradient(45deg, light-gray, white);
-	/* Gradient background */
+/* 	Gradient background */
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-	/* Box shadow for a subtle lift */
+/* 	Box shadow for a subtle lift */
 	transition: transform 0.3s ease-in-out;
 }
 
@@ -150,4 +150,4 @@
 
 .wrapper .house-address {
 	margin-bottom: 2px;
-}
+} 

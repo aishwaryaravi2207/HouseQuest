@@ -30,7 +30,7 @@ charset=UTF-8"
 			<div class="logo">
 				<img class="logo-image" src="images/quest_logo.jpg" />
 				<h1 class="logo-text" style="font-family: Tangerine; color: white">
-					quest</h1>
+					HouseQuest</h1>
 			</div>
 			<div class="search-section">
 				<div class="input-box">
